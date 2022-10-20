@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url(tech.jpg);
+	background-size: cover;
+}
+.kotak{
+	width: 350px;
+	height: 450px;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 20px auto;
+
+
+}
+.kotak img{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+.kotak h1{
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 24px;
+}
+.kotak h2{
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	font-size: 19px;
+	margin-top: 9px;
+}
+.kotak p{
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.kotak.icon{
+	padding: 10px;
+	background: white;
+}
+.kotak.icon i{
+	color: white;
+	padding: 10px;
+}
+a{
+	text-align: center;
+}
